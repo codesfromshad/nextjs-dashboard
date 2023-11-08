@@ -21,6 +21,7 @@ export default function LoginForm() {
           Please log in to continue.
         </h1>
         <div className="w-full">
+          <div className="text-sm">Login with Email: <code className="bg-gray-200 px-1 rounded">user@nextmail.com</code> and Password: <code className="bg-gray-200 px-1 rounded">123456</code>.</div>
           <div>
             <label
               className="mb-3 mt-5 block text-xs font-medium text-gray-900"
